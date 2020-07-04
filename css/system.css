@@ -1,0 +1,58 @@
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+.sectionbox {
+  width: 50%;
+  border-bottom: 1px solid #00000020;
+  padding: 20px 0;
+}
+
+.sectionbox .title {
+  margin-bottom: 10px;
+}
+
+.sectionbox .formbox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sectionbox .formbox .inputbox {
+  margin-right: 10px;
+}
+
+.sectionbox .showbox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.sectionbox .showbox .showimg {
+  width: 100%;
+}
+
+.sectionbox .showbox > .left {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.sectionbox .section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.sectionbox .section > .left {
+  width: 100px;
+}
+
+.sectionbox .section > .right {
+  width: 100%;
+}

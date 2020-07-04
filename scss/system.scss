@@ -1,0 +1,47 @@
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.sectionbox{
+    width: 50%;
+    border-bottom: 1px solid #00000020;
+    padding: 20px 0;
+    .title{
+        margin-bottom: 10px;
+    }
+    .text{
+    }
+    .formbox{
+        display: flex;
+        .inputbox{
+            margin-right: 10px;
+        }
+    }
+    .showbox{
+        display: flex;
+        margin-bottom: 20px;
+        .showimg{
+            width: 100%;
+        }
+        >.left{
+            width: 50%;
+            margin-right: 20px;
+        }
+        >.right{
+        }
+    }
+    .section{
+        display: flex;
+        margin-bottom: 10px;
+        >.left{
+            width: 100px;
+        }
+        >.right{
+            width: 100%;
+        }
+    }
+}
